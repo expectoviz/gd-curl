@@ -11,6 +11,6 @@ echo "
         "
         
 read -p "Webdav target : " url
-read -p "Select file (Make dir name UP First) : " path;
-curl -T /sdcard/UP/$path $url
+read -p "Select file to upload : " path;
+curl -T $path $url
 echo "Result : " $url/$path
