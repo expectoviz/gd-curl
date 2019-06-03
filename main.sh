@@ -11,6 +11,6 @@ echo "
         "
         
 read -p "Webdav target : " url
-read -p "Select file to upload " path;
-if [curl -T /$path $url
+read -p "Select file to upload : " path;
+curl -T /$path $url
 echo "Result : " $url/$path
