@@ -12,5 +12,5 @@ echo "
         
 read -p "Webdav target : " url
 read -p "Select file to upload : " path;
-curl -T /home/gd-curl/FILES/$path $url
+curl -T /$path $url
 echo "Result : " $url/$path
