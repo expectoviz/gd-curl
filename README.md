@@ -2,7 +2,7 @@
 
 Install
 
-git clone https://github.com/expectoviz/gd-curl
-cd gd-curl
-chmod +x main.sh
+git clone https://github.com/expectoviz/gd-curl <br>
+cd gd-curl <br>
+chmod +x main.sh <br>
 ./main.sh
