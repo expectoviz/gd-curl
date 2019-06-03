@@ -1,2 +1,3 @@
 # gd-curl
-Simple file transfer with curl
+
+start main.sh first
